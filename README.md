@@ -926,9 +926,7 @@ virtual int A() = 0;
 
 #### malloc、free
 
-用于分配、释放内存
-
-malloc、free 使用
+用于分配、释放内存，malloc、free 使用(应该有以下好习惯)
 
 申请内存，确认是否申请成功
 
@@ -943,6 +941,7 @@ assert(str != nullptr);
 free(p); 
 p = nullptr;
 ```
+[补充：C++中将NULL直接定义为0，合理的空指针应该为nullptr,表示空指针]
 
 #### new、delete
 
