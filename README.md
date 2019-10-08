@@ -1297,6 +1297,9 @@ class doSomething(Flyable *obj)                 // 做些事情
 [find](http://www.cplusplus.com/reference/algorithm/find/)|顺序查找|O(n)|可重复
 [sort](https://github.com/gcc-mirror/gcc/blob/master/libstdc++-v3/include/bits/stl_algo.h#L4808)|[内省排序](https://en.wikipedia.org/wiki/Introsort)|O(n*log<sub>2</sub>n)|可重复
 
+模板使得算法独立于存储的数据类型，而迭代器使得算法独立于使用的容器类型
+迭代器的类型一般有5种：输入迭代器、输出迭代器、正向迭代器、反向迭代器、随机访问迭代器
+
 ## 〽️ 数据结构
 
 ### 顺序结构
